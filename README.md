@@ -1,7 +1,7 @@
 # Project Problem Statement
 We would like to implement a program that mimics how processes are managed by the dispatcher in an OS. The high-level structure of the program is shown in Fig. 1 below. The program has to be developed in C programming language on a linux OS.
 
-
+<img src="./Workflow.PNG" width="60%" alt="High-level context">
 
 **Fig. 1 (High-level context)**
 
