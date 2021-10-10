@@ -1,11 +1,11 @@
 # Multithreaded-Server-With-DLL-function-Calculators
 
 Start the Server in one terminal by the following commands in one terminal:
-'''bash
+```bash
 gcc client_server_socket.c -lpthread -ldl -o ipc_demo
-'''
-./ipc_demo server ./myserver
 
+./ipc_demo server ./myserver
+```
 
 After starting the server, Start the Client in other terminal by the following commands in one terminal:
 
