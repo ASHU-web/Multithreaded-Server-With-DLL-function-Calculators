@@ -7,7 +7,7 @@
 ./ipc_demo server ./myserver
 ```
 
-After starting the server, Start the Client in other terminal by the following commands in one terminal:
+* After starting the server, Start the Client in other terminal by the following commands in one terminal:
 
 ```bash
 gcc client_server_socket.c -lpthread -ldl -o ipc_demo
@@ -17,11 +17,11 @@ gcc client_server_socket.c -lpthread -ldl -o ipc_demo
 
 eg. ./ipc_demo client ./myserver "/lib/x86_64-linux-gnu/libm.so.6 cos 2.0"
 ```
-### give_pathof_DLL_library: Any library path which you want to execute eg. "/lib/x86_64-linux-gnu/libm.so.6"
+ **give_pathof_DLL_library:** Any library path which you want to execute eg. "/lib/x86_64-linux-gnu/libm.so.6"
 
-### name_of_function: name of the function in the DLL library supplied e.g. commands
+ **name_of_function:** name of the function in the DLL library supplied e.g. commands
 
-### args_for_function: the positional arguments in specific order. Refer to the table provided below.
+ **args_for_function:** the positional arguments in specific order. Refer to the table provided below.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 Library path                        |  Function Name            |  Arguements in order
