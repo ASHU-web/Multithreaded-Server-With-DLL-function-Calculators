@@ -3,7 +3,7 @@ We would like to implement a program that mimics how processes are managed by th
 
 
 
-Fig. 1 (High-level context)
+**Fig. 1 (High-level context)**
 
 
 The program has the following main modules:
