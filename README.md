@@ -65,8 +65,8 @@ Library path                        |  Function Name            |  Arguements in
 /lib/x86_64-linux-gnu/libm.so.6     | sin                       | One int type in range->sin(X) where X is the input
 
 
-
-
+# Acknowledgments
+* [Dr. Balwinder Sodhi](https://cse.iitrpr.ac.in/sodhi/): For making me work on this assignment in course of Operating systems
 
 
 
